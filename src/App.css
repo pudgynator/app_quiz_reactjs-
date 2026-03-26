@@ -1,0 +1,19 @@
+@import url(
+"https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+
+body {
+  background-color: silver;
+  color: white;
+  font-family: "Roboto Mono", monospace;
+}
+.App {
+  text-align: left;
+}
+
+.app-title {
+  color: white;
+  margin-top: 2rem;
+}
+
+
