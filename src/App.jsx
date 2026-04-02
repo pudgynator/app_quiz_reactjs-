@@ -1,9 +1,8 @@
-import './App.css'
-import { Component } from "react";
+import React, { Component } from "react";
 import Question from "./components/Question";
 import qBank from "./components/Questionbank";
 import Score from "./components/Score";
-
+import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 class App extends Component {
   constructor(props) {

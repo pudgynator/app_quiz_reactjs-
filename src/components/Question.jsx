@@ -1,4 +1,4 @@
-import { Component } from "react";
+import React,{ Component } from "react";
 import Options from "./Option";
 
 class Question extends Component {
@@ -6,7 +6,7 @@ class Question extends Component {
         const { question, selectedOption, onOptionChange, onSubmit } = this.props;
 
         return (
-            <div>
+            <div className="">
                 <h3 className="text-center">Запитання {question.id}</h3>
                 <h5 className="mt-2">{question.question}</h5>
                 <form onSubmit={onSubmit} className="mt-2 mb-2">
